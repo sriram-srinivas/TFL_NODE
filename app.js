@@ -1,3 +1,3 @@
 const dictionary = require('./context/dictionary');
 
-console.log(getNotes());
+console.log(dictionary.Title);
