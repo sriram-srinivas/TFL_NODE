@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 const dictionary = require('./context/dictionary');
 
-console.log(dictionary.Title);
+console.log(chalk.red(dictionary.Title));

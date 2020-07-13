@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sriram-srinivas/TFL_NODE/issues"
   },
-  "homepage": "https://github.com/sriram-srinivas/TFL_NODE#readme"
+  "homepage": "https://github.com/sriram-srinivas/TFL_NODE#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.1.1"
+  }
 }
