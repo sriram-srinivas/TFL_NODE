@@ -18,9 +18,13 @@
   "homepage": "https://github.com/sriram-srinivas/TFL_NODE#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "mongodb": "^3.5.9",
+    "uuid": "^8.3.0",
     "validator": "^13.1.1",
     "yargs": "^15.4.1"
   }

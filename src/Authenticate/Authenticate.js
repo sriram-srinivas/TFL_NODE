@@ -1,5 +1,3 @@
-const chalk = require('chalk');
-const dictionary = require('./context/dictionary');
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
