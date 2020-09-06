@@ -1,18 +1,16 @@
 const MongoClient = require('mongodb').MongoClient;
-const assert = require('assert');
 
 const url = 'mongodb://localhost:27017';
-
 const dbName = 'FourLetters';
 
 let result=[];
-MongoClient.connect(url, function(err, client) {
-    client.db(dbName).collection('Temp').find({}).limit(10).toArray(function(errors, items) {;
-    
-        assert.equal(null, errors);
-        result =items;
-        client.close();
-        });
+MongoClient.connect(url, (err, client)=> {
+    client.db(dbName).collection('Temp').find({}).limit(10).toArray().then( items =>{
+          result =items;
+          console.log(items);
+      }).catch(error =>{
+        console.log("error",error);
+      });
     
     });
 var http = require('http');
